@@ -1,0 +1,455 @@
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:10:23.444Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="XEoC9KnhC2E0FYXhhlmr" version="24.6.4" type="device">
+  <diagram name="페이지-1" id="JsOcrUhTwX_pMC8v2FVw">
+    <mxGraphModel dx="979" dy="-716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1200" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-2" value="MemberController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="110" y="1200" width="100" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="PLXPqVrHvDk8v46kjaNR-2" vertex="1">
+          <mxGeometry x="44" y="60" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-4" value="회원 가입" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="PLXPqVrHvDk8v46kjaNR-1" target="PLXPqVrHvDk8v46kjaNR-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="1265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-5" value="MemberService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="250" y="1200" width="100" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="PLXPqVrHvDk8v46kjaNR-5" vertex="1">
+          <mxGeometry x="46" y="130" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-7" value="중복확인" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="PLXPqVrHvDk8v46kjaNR-2" target="PLXPqVrHvDk8v46kjaNR-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="1335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-8" value="성공 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="PLXPqVrHvDk8v46kjaNR-6" target="PLXPqVrHvDk8v46kjaNR-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="1405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-9" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1405" as="targetPoint" />
+            <mxPoint x="280" y="1404.9999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-10" value="가입 완료" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" target="PLXPqVrHvDk8v46kjaNR-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="1430" as="targetPoint" />
+            <mxPoint x="154" y="1429.9999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-11" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1533" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-12" value="BoardController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="110" y="1533" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PLXPqVrHvDk8v46kjaNR-12">
+          <mxGeometry x="44" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PLXPqVrHvDk8v46kjaNR-13" value="BoardService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="240" y="1533" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PLXPqVrHvDk8v46kjaNR-13">
+          <mxGeometry x="46" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-2" value="게시글 작성" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="I8T9BKoXojQw9KnoP_Si-1" parent="1" source="PLXPqVrHvDk8v46kjaNR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="1598" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-3" value="성공" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="I8T9BKoXojQw9KnoP_Si-1" parent="1" target="PLXPqVrHvDk8v46kjaNR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="1668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-5" value="게시글 등록" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="I8T9BKoXojQw9KnoP_Si-4" parent="1" source="PLXPqVrHvDk8v46kjaNR-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="216" y="1598" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-6" value="성공" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" source="I8T9BKoXojQw9KnoP_Si-4" parent="1" target="I8T9BKoXojQw9KnoP_Si-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="216" y="1668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-7" value="회원가입" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1169" width="370" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-8" value="게시글 등록" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1500" width="370" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-10" value="게시글 수정" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1870" width="370" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-11" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-10">
+          <mxGeometry x="30" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-12" value="BoardController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-10">
+          <mxGeometry x="110" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-12">
+          <mxGeometry x="44" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-12">
+          <mxGeometry x="44" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-14" value="BoardService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-10">
+          <mxGeometry x="240" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-14">
+          <mxGeometry x="46" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-14">
+          <mxGeometry x="46" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-16" value="게시글 조회" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-10" source="I8T9BKoXojQw9KnoP_Si-11" target="I8T9BKoXojQw9KnoP_Si-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-17" value="게시글 상세 확인" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-10" source="I8T9BKoXojQw9KnoP_Si-13" target="I8T9BKoXojQw9KnoP_Si-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-18" value="게시글 불러오기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="120" as="sourcePoint" />
+            <mxPoint x="286" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-19" value="게시글 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="160" as="targetPoint" />
+            <mxPoint x="286" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-21" value="게시글 수정" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="I8T9BKoXojQw9KnoP_Si-20" parent="I8T9BKoXojQw9KnoP_Si-10" source="I8T9BKoXojQw9KnoP_Si-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-22" value="수정 내용으로 이동" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="I8T9BKoXojQw9KnoP_Si-20" parent="I8T9BKoXojQw9KnoP_Si-10" target="I8T9BKoXojQw9KnoP_Si-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-30" value="게시글 수정하기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="210" as="sourcePoint" />
+            <mxPoint x="286" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-31" value="수정 성공" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="250" as="targetPoint" />
+            <mxPoint x="286" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-32" value="게시글 삭제" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1500" width="370" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-33" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-32">
+          <mxGeometry x="30" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-34" value="BoardController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-32">
+          <mxGeometry x="110" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-34">
+          <mxGeometry x="44" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-34">
+          <mxGeometry x="44" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-37" value="BoardService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-32">
+          <mxGeometry x="240" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-37">
+          <mxGeometry x="46" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-37">
+          <mxGeometry x="46" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-40" value="게시글 조회" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-32" source="I8T9BKoXojQw9KnoP_Si-33" target="I8T9BKoXojQw9KnoP_Si-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-41" value="게시글 상세 확인" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-32" source="I8T9BKoXojQw9KnoP_Si-35" target="I8T9BKoXojQw9KnoP_Si-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-42" value="게시글 불러오기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="120" as="sourcePoint" />
+            <mxPoint x="286" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-43" value="게시글 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="160" as="targetPoint" />
+            <mxPoint x="286" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-44" value="게시글 삭제" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-32" source="I8T9BKoXojQw9KnoP_Si-33" target="I8T9BKoXojQw9KnoP_Si-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-45" value="게시글 리스트로 이동" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-32" source="I8T9BKoXojQw9KnoP_Si-36" target="I8T9BKoXojQw9KnoP_Si-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-46" value="게시글 삭제하기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-32">
+          <mxGeometry x="0.0046" relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="210" as="sourcePoint" />
+            <mxPoint x="286" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-47" value="삭제 성공" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="250" as="targetPoint" />
+            <mxPoint x="286" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-58" value="댓글 등록" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2350" width="650" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-59" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry x="30" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-60" value="BoardController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry x="110" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-61" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-60">
+          <mxGeometry x="44" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-63" value="BoardService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry x="240" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-64" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-63">
+          <mxGeometry x="46" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-66" value="게시글 조회" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-58" source="I8T9BKoXojQw9KnoP_Si-59" target="I8T9BKoXojQw9KnoP_Si-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-67" value="게시글 상세, 댓글 확인" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-58" source="I8T9BKoXojQw9KnoP_Si-61" target="I8T9BKoXojQw9KnoP_Si-59">
+          <mxGeometry x="0.0036" relative="1" as="geometry">
+            <mxPoint x="84" y="175" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-68" value="게시글 불러오기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="120" as="sourcePoint" />
+            <mxPoint x="286" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-69" value="게시글, 댓글 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="160" as="targetPoint" />
+            <mxPoint x="286" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-74" value="CommentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry x="370" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-75" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-74">
+          <mxGeometry x="44" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-76" value="댓글 등록" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="I8T9BKoXojQw9KnoP_Si-75" parent="I8T9BKoXojQw9KnoP_Si-58" source="I8T9BKoXojQw9KnoP_Si-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-77" value="게시글 상세로 다시 이동" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="I8T9BKoXojQw9KnoP_Si-75" parent="I8T9BKoXojQw9KnoP_Si-58" target="I8T9BKoXojQw9KnoP_Si-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-78" value="CommentService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry x="500" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-79" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-78">
+          <mxGeometry x="48" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-80" value="댓글 등록하기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419.63043478260875" y="210" as="sourcePoint" />
+            <mxPoint x="548.0000000000002" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-81" value="댓글 등록 완료" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419.63043478260875" y="250" as="targetPoint" />
+            <mxPoint x="548.0000000000002" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-82" value="댓글 수정" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2730" width="650" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-83" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry x="30" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-84" value="BoardController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry x="110" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-85" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-84">
+          <mxGeometry x="44" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-86" value="BoardService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry x="240" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-87" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-86">
+          <mxGeometry x="46" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-88" value="게시글 조회" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-82" source="I8T9BKoXojQw9KnoP_Si-83" target="I8T9BKoXojQw9KnoP_Si-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-89" value="게시글 상세, 댓글 확인" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-82" source="I8T9BKoXojQw9KnoP_Si-85" target="I8T9BKoXojQw9KnoP_Si-83">
+          <mxGeometry x="0.0036" relative="1" as="geometry">
+            <mxPoint x="84" y="175" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-90" value="게시글 불러오기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="120" as="sourcePoint" />
+            <mxPoint x="286" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-91" value="게시글, 댓글 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="160" as="targetPoint" />
+            <mxPoint x="286" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-92" value="CommentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry x="370" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-93" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-92">
+          <mxGeometry x="44" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-94" value="댓글 수정" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-82" source="I8T9BKoXojQw9KnoP_Si-83" target="I8T9BKoXojQw9KnoP_Si-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-95" value="게시글 상세로 다시 이동" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-82" source="I8T9BKoXojQw9KnoP_Si-93" target="I8T9BKoXojQw9KnoP_Si-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-96" value="CommentService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry x="500" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-97" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-96">
+          <mxGeometry x="48" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-98" value="댓글 수정하기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419.63043478260875" y="210" as="sourcePoint" />
+            <mxPoint x="548.0000000000002" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-99" value="댓글 수정 완료" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419.63043478260875" y="250" as="targetPoint" />
+            <mxPoint x="548.0000000000002" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-100" value="댓글 삭제" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="3110" width="650" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-101" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry x="30" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-102" value="BoardController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry x="110" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-103" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-102">
+          <mxGeometry x="44" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-104" value="BoardService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry x="240" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-105" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-104">
+          <mxGeometry x="46" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-106" value="게시글 조회" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-100" source="I8T9BKoXojQw9KnoP_Si-101" target="I8T9BKoXojQw9KnoP_Si-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-107" value="게시글 상세, 댓글 확인" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-100" source="I8T9BKoXojQw9KnoP_Si-103" target="I8T9BKoXojQw9KnoP_Si-101">
+          <mxGeometry x="0.0036" relative="1" as="geometry">
+            <mxPoint x="84" y="175" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-108" value="게시글 불러오기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.63043478260875" y="120" as="sourcePoint" />
+            <mxPoint x="286" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-109" value="게시글, 댓글 반환" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="160" as="targetPoint" />
+            <mxPoint x="286" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-110" value="CommentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry x="370" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-111" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-110">
+          <mxGeometry x="44" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-112" value="댓글 삭제" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-100" source="I8T9BKoXojQw9KnoP_Si-101" target="I8T9BKoXojQw9KnoP_Si-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-113" value="게시글 상세로 다시 이동" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-100" source="I8T9BKoXojQw9KnoP_Si-111" target="I8T9BKoXojQw9KnoP_Si-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-114" value="CommentService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry x="500" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-115" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="I8T9BKoXojQw9KnoP_Si-114">
+          <mxGeometry x="48" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-116" value="댓글 삭제하기" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419.63043478260875" y="210" as="sourcePoint" />
+            <mxPoint x="548.0000000000002" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8T9BKoXojQw9KnoP_Si-117" value="댓글 삭제 완료" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="I8T9BKoXojQw9KnoP_Si-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419.63043478260875" y="250" as="targetPoint" />
+            <mxPoint x="548.0000000000002" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
