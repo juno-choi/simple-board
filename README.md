@@ -25,3 +25,7 @@
 # flow chart
 
 ![img](https://velog.velcdn.com/images/ililil9482/post/ba65fff5-80a6-4eb7-8bdb-6d80c9f32713/image.png)
+
+# ERD
+
+![img](https://velog.velcdn.com/images/ililil9482/post/25f70869-b3cc-4983-a7e1-956edfc4de52/image.png)
